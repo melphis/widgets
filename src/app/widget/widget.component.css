@@ -1,0 +1,61 @@
+:host {
+  display: block;
+  width: 350px;
+  height: 280px;
+  margin-bottom: 50px;
+  margin-right: 50px;
+  padding: 20px;
+  background-color: white;
+}
+
+.container {
+  position: relative;
+  height: 100%;
+}
+
+.users {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.users img {
+  flex: 0 0 100px;
+  height: 100px;
+  overflow: hidden;
+}
+
+.users.low-count {
+  justify-content: initial;
+}
+
+.users.low-count img {
+  margin-right: 20px;
+}
+
+a.creator, .row {
+  font-size: 12px;
+}
+
+.row {
+  color: #6C6C6E;
+  margin-bottom: 6px;
+}
+
+.tracking img.small-avatar {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+a.channel {
+  font-weight: bold;
+}
+
+.buttons {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  text-align: right;
+}

@@ -1,0 +1,22 @@
+h2 {
+  color: white;
+}
+
+.widgets {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.widgets app-widget {
+  flex: 0 0 350px;
+}
+
+.pseudo-link {
+  color: #4FA1EA;
+  border-bottom: 1px dashed;
+}
+
+.all-collections {
+  margin-top: 30px;
+  text-align: center;
+}

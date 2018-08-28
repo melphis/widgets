@@ -1,0 +1,11 @@
+<button (click)="insertWidget()">Добавить виджет</button>
+
+<h2>Коллекции</h2>
+
+<div class="widgets">
+  <app-widget [data]="widget" *ngFor="let widget of widgets | slice:0:3"></app-widget>
+</div>
+
+<div class="all-collections">
+  <span class="pseudo-link">Все коллекции</span>
+</div>

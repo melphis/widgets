@@ -1,0 +1,27 @@
+<div class="container">
+  <div class="users" [ngClass]="{'low-count': data.channels.length < 3}">
+    <img [src]="channel.src" *ngFor="let channel of data.channels | slice:0:3" />
+  </div>
+
+  <div class="row">
+    <a class="channel" href="https://yandex.ru/search/?text={{data.title}}" target="_blank">{{data.title}}</a>
+  </div>
+
+  <div class="row">
+    Создатель: <a class="creator" href="https://yandex.ru/search/?text={{data.creator}}" target="_blank">{{data.creator}}</a>
+  </div>
+
+  <div class="row tracking">
+    Отслеживают: <img class="small-avatar" [src]="user.src" *ngFor="let user of data.trackedBy | slice:0:3" />
+    … ({{data.trackedBy.length}})
+  </div>
+
+  <div class="buttons">
+    <button mat-flat-button
+            *ngIf="!data.favorite"
+            (click)="data.favorite = !data.favorite"><mat-icon>accessible</mat-icon> Добавить в избранное</button>
+    <button mat-stroked-button
+            *ngIf="data.favorite"
+            (click)="data.favorite = !data.favorite"><mat-icon>voice_over_off</mat-icon> В избранном</button>
+  </div>
+</div>

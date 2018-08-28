@@ -1,0 +1,41 @@
+[{
+  "id": 1,
+  "name": "1",
+  "src": "/assets/images/avatars/1.jpeg"
+}, {
+  "id": 2,
+  "name": "2",
+  "src": "/assets/images/avatars/2.jpeg"
+}, {
+  "id": 3,
+  "name": "3",
+  "src": "/assets/images/avatars/3.jpeg"
+}, {
+  "id": 4,
+  "name": "4",
+  "src": "/assets/images/avatars/4.jpeg"
+}, {
+  "id": 5,
+  "name": "5",
+  "src": "/assets/images/avatars/5.jpeg"
+}, {
+  "id": 6,
+  "name": "6",
+  "src": "/assets/images/avatars/6.jpeg"
+}, {
+  "id": 7,
+  "name": "7",
+  "src": "/assets/images/avatars/7.jpeg"
+}, {
+  "id": 8,
+  "name": "8",
+  "src": "/assets/images/avatars/8.jpeg"
+}, {
+  "id": 9,
+  "name": "9",
+  "src": "/assets/images/avatars/9.jpeg"
+}, {
+  "id": 10,
+  "name": "10",
+  "src": "/assets/images/avatars/10.jpeg"
+}]
